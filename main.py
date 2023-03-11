@@ -46,6 +46,7 @@ j=QtWidgets.QApplication([])
 r=0
 m=uic.loadUi('ut1.ui')
 m.show()
+m.setWindowIcon(QtGui.QIcon('pjkt.jpg'))
 m.setWindowTitle('Home')
 m.pred.clicked.connect(ll)
 sys.exit(j.exec_())
