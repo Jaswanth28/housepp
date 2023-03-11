@@ -7,7 +7,7 @@
   },
   {
    "optionDest": "filenames",
-   "value": "C:/Users/Jaswanth/Desktop/New folder (2)/main.py"
+   "value": "C:/Users/Jaswanth/Desktop/housepp/main.py"
   },
   {
    "optionDest": "onefile",
@@ -19,7 +19,7 @@
   },
   {
    "optionDest": "icon_file",
-   "value": "C:/Users/Jaswanth/Desktop/New folder (2)/icon.ico"
+   "value": "C:/Users/Jaswanth/Desktop/housepp/icon.ico"
   },
   {
    "optionDest": "name",
@@ -75,11 +75,15 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/Jaswanth/Desktop/New folder (2)/pred_pkl;."
+   "value": "C:/Users/Jaswanth/Desktop/housepp/pjkt.jpg;."
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/Jaswanth/Desktop/New folder (2)/ut1.ui;."
+   "value": "C:/Users/Jaswanth/Desktop/housepp/pred_pkl;."
+  },
+  {
+   "optionDest": "datas",
+   "value": "C:/Users/Jaswanth/Desktop/housepp/ut1.ui;."
   }
  ],
  "nonPyinstallerOptions": {
