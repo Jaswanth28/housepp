@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1013</width>
+    <height>780</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>40</y>
+      <width>631</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="text">
+     <string>HOUSE PRICE PREDICTION</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="bed">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>150</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>10</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAfterCurrent</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 BHK Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 BHK Builder Floor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 BHK Builder floor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 BHK Penthouse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 BHK Service Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1 bedroom Studio Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2 BHK Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2 BHK Builder Floor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2 BHK Builderfloor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2 BHK Penthouse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2 BHK Service Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3 BHK Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3 BHK Builder Floor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3 BHK Builderfloor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3 BHK Service Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4 BHK Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4 BHK Builderfloor</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4 BHK Penthouse</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5 BHK Apartment</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Studio Apartment</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>150</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Number Of Bedrooms</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>210</y>
+      <width>271</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Number Of Bathrooms</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="bath">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>210</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>10</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAfterCurrent</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select BathRooms</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>270</y>
+      <width>281</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Type Of Furnishing</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="fur">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>270</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>10</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAfterCurrent</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Furnishing</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Furnished</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Unfurnished</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Semi-Furnished</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bachelors/Family</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Family</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>330</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Location</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="loc">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>330</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>10</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAfterCurrent</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Location</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Khairatabad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Miyapur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Dilshuknagar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mehdipatnam</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kondapur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gachibowli</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nagole</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Attapur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Manikonda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nizampet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ameerpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Marredpally</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Madhapur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shamirpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>KPHB</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Secunderabad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Begumpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Patancheru</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rajendranagar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ghatkesar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Banjara Hills</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Narsingi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Himayanagar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Alwal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Jubilee Hills</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Boduppal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Punjagutta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>LB Nagar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Narayanguda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kompally</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oldcity</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uppal</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ECIL</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tarnaka</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hayathnagar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nallakunta</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hitech City</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Masab Tank</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Vanasthalipuram</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hyderabad</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nampally</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bowenpally</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sainikpuri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Habsiguda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Road #</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Pocharam</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nacharam</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Malakpet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Golkonda</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Phase</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mallapur</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Shamshabad</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>390</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Select Tennants</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="tt">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>390</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="maxVisibleItems">
+     <number>10</number>
+    </property>
+    <property name="insertPolicy">
+     <enum>QComboBox::InsertAfterCurrent</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QComboBox::AdjustToMinimumContentsLengthWithIcon</enum>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Tennants</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Family</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bachelors</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bachelors/Family</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>450</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Enter Area (In sqft)</string>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="area">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>450</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pred">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>550</y>
+      <width>181</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Predict</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="res">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>660</y>
+      <width>731</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="wordWrap">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
