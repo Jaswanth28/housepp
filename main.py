@@ -39,6 +39,7 @@ def update_local_files_if_changed(repo_path="models"):
     else:
         print("Local files are up-to-date with the Git repository.")
 
+
 def update():
     update_local_files_if_changed()
 
