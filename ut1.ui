@@ -838,6 +838,19 @@
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="upd">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>20</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources/>

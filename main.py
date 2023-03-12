@@ -9,7 +9,7 @@ from sklearn.ensemble import BaggingRegressor
 from sklearn.metrics._pairwise_distances_reduction import _datasets_pair
 from sklearn.metrics._pairwise_distances_reduction import _middle_term_computer
 
-with open('resources/pred_pkl','rb') as f:
+with open('models/pred_pkl','rb') as f:
     model=pickle.load(f)
 
 def tth(x1,x2,x3,x4,x5,x6):

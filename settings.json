@@ -19,7 +19,7 @@
   },
   {
    "optionDest": "icon_file",
-   "value": "C:/Users/Jaswanth/Desktop/housepp/icon.ico"
+   "value": "C:/Users/Jaswanth/Desktop/housepp/resources/icon.ico"
   },
   {
    "optionDest": "name",
@@ -75,15 +75,11 @@
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/Jaswanth/Desktop/housepp/pjkt.jpg;."
+   "value": "C:/Users/Jaswanth/Desktop/housepp/resources;resources/"
   },
   {
    "optionDest": "datas",
-   "value": "C:/Users/Jaswanth/Desktop/housepp/pred_pkl;."
-  },
-  {
-   "optionDest": "datas",
-   "value": "C:/Users/Jaswanth/Desktop/housepp/ut1.ui;."
+   "value": "C:/Users/Jaswanth/Desktop/housepp/models;models/"
   }
  ],
  "nonPyinstallerOptions": {
