@@ -9,7 +9,7 @@ from sklearn.ensemble import BaggingRegressor
 from sklearn.metrics._pairwise_distances_reduction import _datasets_pair
 from sklearn.metrics._pairwise_distances_reduction import _middle_term_computer
 
-with open('pred_pkl','rb') as f:
+with open('resources/pred_pkl','rb') as f:
     model=pickle.load(f)
 
 def tth(x1,x2,x3,x4,x5,x6):
@@ -44,9 +44,9 @@ def ll():
 
 j=QtWidgets.QApplication([])
 r=0
-m=uic.loadUi('ut1.ui')
+m=uic.loadUi('resources/ut1.ui')
 m.show()
-m.setWindowIcon(QtGui.QIcon('pjkt.jpg'))
+m.setWindowIcon(QtGui.QIcon('resources/pjkt.jpg'))
 m.setWindowTitle('Home')
 m.pred.clicked.connect(ll)
 sys.exit(j.exec_())
