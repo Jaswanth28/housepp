@@ -77,9 +77,9 @@ def ll():
 
 j=QtWidgets.QApplication([])
 r=0
-m=uic.loadUi('ut1.ui')
+m=uic.loadUi('resources/ut1.ui')
 m.show()
-m.setWindowIcon(QtGui.QIcon('pjkt.jpg'))
+m.setWindowIcon(QtGui.QIcon('resources/pjkt.jpg'))
 m.setWindowTitle('Home')
 m.pred.clicked.connect(ll)
 m.upd.clicked.connect(update)
